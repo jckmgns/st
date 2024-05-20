@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Iosevka Fixed Extended:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -93,35 +93,55 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+#define c00 "#edcdb0"
+#define c01 "#d4b69b"
+#define c02 "#ba9f86"
+#define c03 "#a18871"
+#define c04 "#87715c"
+#define c05 "#6e5947"
+#define c06 "#544232"
+#define c07 "#3b2b1d"
+#define c08 "#211408"
+
+#define re0 "#8e4849"
+#define gr0 "#a36c47"
+#define ye0 "#b77452"
+#define bl0 "#516166"
+#define ma0 "#905667"
+#define cy0 "#727e61"
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+
+    c08, /* black */
+    re0, /* red */
+    gr0, /* green */
+    ye0, /* yellow */
+    bl0, /* blue */
+    ma0, /* magenta */
+    cy0, /* cyan */
+    c05, /* gray */
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+
+    c06, /* gray */
+    re0, /* red */
+    gr0, /* green */
+    ye0, /* yellow */
+    bl0, /* blue */
+    ma0, /* magenta */
+    cy0, /* cyan */
+    c00, /* white */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+
+	c08, /* cursor color */
+	c00, /* reverse cursor color */
+	c08, /* foreground color */
+	c00, /* background color */
 };
 
 
