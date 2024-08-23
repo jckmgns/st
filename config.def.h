@@ -93,39 +93,40 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-#define c00 "#edcdb0"
-#define c01 "#d4b69b"
-#define c02 "#ba9f86"
-#define c03 "#a18871"
-#define c04 "#87715c"
-#define c05 "#6e5947"
-#define c06 "#544232"
-#define c07 "#3b2b1d"
-#define c08 "#211408"
+#define c00 "#f8e7dd"
+#define c01 "#ddccc2"
+#define c02 "#c3b1a8"
+#define c03 "#aa978f"
+#define c04 "#917e76"
+#define c05 "#79665e"
+#define c06 "#624f48"
+#define c07 "#4b3932"
+#define c08 "#36241e"
+#define c09 "#221007"
 
-#define re0 "#8e4849"
-#define gr0 "#a36c47"
-#define ye0 "#b77452"
-#define bl0 "#516166"
-#define ma0 "#905667"
-#define cy0 "#727e61"
+#define re0 "#b32a31"
+#define gr0 "#6c5b09"
+#define ye0 "#ba6d10"
+#define bl0 "#1b6363"
+#define ma0 "#b24777"
+#define cy0 "#768458"
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
 
-    c08, /* black */
+    c09, /* black */
     re0, /* red */
     gr0, /* green */
     ye0, /* yellow */
     bl0, /* blue */
     ma0, /* magenta */
     cy0, /* cyan */
-    c05, /* gray */
+    c04, /* gray */
 
 	/* 8 bright colors */
 
-    c06, /* gray */
+    c05, /* gray */
     re0, /* red */
     gr0, /* green */
     ye0, /* yellow */
