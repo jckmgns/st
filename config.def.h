@@ -104,12 +104,12 @@ unsigned int tabspaces = 8;
 #define c08 "#36241e"
 #define c09 "#221007"
 
-#define re0 "#b32a31"
-#define gr0 "#6c5b09"
-#define ye0 "#ba6d10"
-#define bl0 "#1b6363"
-#define ma0 "#b24777"
-#define cy0 "#768458"
+#define re0 "#97504e"
+#define gr0 "#8f754d"
+#define ye0 "#b88147"
+#define bl0 "#4c7070"
+#define ma0 "#8c5a73"
+#define cy0 "#6e8967"
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
