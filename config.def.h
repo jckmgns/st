@@ -102,11 +102,11 @@ unsigned int tabspaces = 8;
 #define c6 "#1e140f"
 #define c7 "#160c07"
 
-#define re0 "#a84248"
-#define gr0 "#7a7424"
-#define ye0 "#c7823e"
+#define re0 "#9f4847"
+#define gr0 "#7A6B24"
+#define ye0 "#bf7d42"
 #define bl0 "#3a6d77"
-#define ma0 "#ac5e82"
+#define ma0 "#A6627F"
 #define cy0 "#6a8f6c"
 
 /* Terminal colors (16 first used in escape sequence) */
