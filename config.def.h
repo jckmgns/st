@@ -93,14 +93,12 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-#define c0 "#fcf1ee"
-#define c1 "#d7ccc8"
-#define c2 "#aca29e"
-#define c3 "#817672"
-#define c4 "#584e49"
-#define c5 "#362c27"
-#define c6 "#1e140f"
-#define c7 "#160c07"
+#define cl0 "#f7efee"
+#define cl1 "#e4dddc"
+#define cl2 "#b6b1b0"
+#define cl3 "#7b7777"
+#define cl4 "#403d3d"
+#define cl5 "#121111"
 
 #define re0 "#9f4847"
 #define gr0 "#7A6B24"
@@ -113,34 +111,34 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 	/* 8 normal colors */
 
-    c7, /* black */
+    cl5,  /* black */
     re0, /* red */
     gr0, /* green */
     ye0, /* yellow */
     bl0, /* blue */
     ma0, /* magenta */
     cy0, /* cyan */
-    c3, /* gray */
+    cl2,  /* gray */
 
 	/* 8 bright colors */
 
-    c4, /* gray */
+    cl3,  /* gray */
     re0, /* red */
     gr0, /* green */
     ye0, /* yellow */
     bl0, /* blue */
     ma0, /* magenta */
     cy0, /* cyan */
-    c0, /* white */
+    cl0,  /* white */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 
-	c7, /* cursor color */
-	c0, /* reverse cursor color */
-	c7, /* foreground color */
-	c0, /* background color */
+	cl5, /* cursor color */
+	cl0, /* reverse cursor color */
+	cl5, /* foreground color */
+	cl0, /* background color */
 };
 
 
